@@ -13,6 +13,13 @@
 #ifndef ___SORTING_ALGORITHMS_H
 #define ___SORTING_ALGORITHMS_H
 
+#include <stdio.h>
+#include <stdlib.h>
+
+void bubble_sort(int* array, int small);
+void insertion_sort(int* array, int small);
+int* init_random(int* array, int small);
+
 /**
 *** @file sorting_algorithms.h
 *** @brief Description of sorting algorithms
